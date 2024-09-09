@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Morpion</string>
+    <string name="Choose_your_play_mode">Choisissez votre mode de jeu</string>
+    <string name="With_AI">Avec IA</string>
+    <string name="With_a_friend">Avec un ami</string>
+    <string name="Pick_your_side">Choisissez votre côté</string>
+    <string name="Continue">Continuer</string>
+    <string name="New_Game">Nouvelle Partie</string>
+    <string name="Congratulations">Félicitations</string>
+    <string name="Won">Gagné</string>
+    <string name="SHARE">PARTAGER</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tres en Raya</string>
+    <string name="Choose_your_play_mode">Elige tu modo de juego</string>
+    <string name="With_AI">Con IA</string>
+    <string name="With_a_friend">Con un amigo</string>
+    <string name="Pick_your_side">Elige tu lado</string>
+    <string name="Continue">Continuar</string>
+    <string name="New_Game">Nuevo Juego</string>
+    <string name="Congratulations">Felicidades</string>
+    <string name="Won">Ganaste</string>
+    <string name="SHARE">COMPARTIR</string>
+</resources>

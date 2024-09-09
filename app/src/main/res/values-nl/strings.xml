@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Boter, Kaas en Eieren</string>
+    <string name="Choose_your_play_mode">Kies je speelmodus</string>
+    <string name="With_AI">Met AI</string>
+    <string name="With_a_friend">Met een vriend</string>
+    <string name="Pick_your_side">Kies je kant</string>
+    <string name="Continue">Doorgaan</string>
+    <string name="New_Game">Nieuw Spel</string>
+    <string name="Congratulations">Gefeliciteerd</string>
+    <string name="Won">Gewonnen</string>
+    <string name="SHARE">DELEN</string>
+</resources>

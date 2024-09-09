@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".AISidesSelectActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/Pick_your_side"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et1_main"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/blue_edit_text_shape"
+        android:paddingLeft="20dp"
+        android:hint="Player 1"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="337dp"
+        android:layout_height="280dp"
+        android:paddingTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et1_main">
+
+        <ImageView
+            android:id="@+id/friendxImage"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:alpha="1"
+
+            android:src="@drawable/xshadow_img" />
+
+        <ImageView
+            android:id="@+id/friendyImage"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/oshadow_img" />
+
+
+    </LinearLayout>
+
+
+    <RadioGroup
+        android:id="@+id/RadioGroupXOfriend"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+
+        <RadioButton
+            android:id="@+id/radioButtonForXfriend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="55dp"
+            android:layout_marginEnd="40dp"
+            android:scaleX="1.7"
+            android:scaleY="1.7"
+            android:text=""
+            app:buttonTint="@color/radio_button_selector"
+
+            />
+
+        <RadioButton
+            android:id="@+id/radioButtonForOfriend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="20dp"
+            android:scaleX="1.7"
+            android:scaleY="1.7"
+            android:text=""
+            app:buttonTint="@color/radio_button_selector"
+
+            />
+
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/et2_main"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/orange_edit_text_shape"
+        android:paddingLeft="20dp"
+        android:hint="Player 2"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RadioGroupXOfriend" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewfriend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="120dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="8dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/friendcont_btn_main"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:text="@string/Continue"
+            android:textColor="@color/greyFontColor"
+            android:textSize="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

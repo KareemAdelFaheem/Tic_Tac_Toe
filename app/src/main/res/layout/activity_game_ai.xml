@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/backgroundColor"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout2_AI"
+        android:layout_width="360dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/X_playerCard"
+            app:cardBackgroundColor="@color/white"
+            app:strokeColor="@color/blueStroke"
+            app:strokeWidth="10px"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="1dp">
+            <TextView
+                android:id="@+id/player1_tv_game"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="Player 1"
+                android:textSize="20sp" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="0 - 0"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/O_playerCard"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="1dp"
+            app:strokeColor="@color/orangeStroke"
+            app:strokeWidth="10px"
+
+            app:cardBackgroundColor="@color/white"
+            >
+            <TextView
+                android:id="@+id/player2_tv_game"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="Player 2"
+                android:textSize="20sp"  />
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        app:cardBackgroundColor="@color/white"
+        android:id="@+id/cardView2"
+        android:layout_width="380dp"
+        android:layout_height="450dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="3dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2_AI" >
+
+        <LinearLayout
+
+            android:id="@+id/upperLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+
+            >
+            <com.google.android.material.card.MaterialCardView
+                app:cardBackgroundColor="@color/boardColor"
+                android:layout_width="126dp"
+                android:layout_height="150dp"
+                app:cardCornerRadius="2dp"
+                >
+                <ImageView
+                    android:id="@+id/imageone1"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:layout_gravity="center"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                app:cardCornerRadius="2dp"
+                app:cardBackgroundColor="@color/boardColor"
+                android:layout_width="127dp"
+                android:layout_height="150dp">
+                <ImageView
+
+                    android:id="@+id/imageone2"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:layout_gravity="center"
+
+                    />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                app:cardCornerRadius="2dp"
+                app:cardBackgroundColor="@color/boardColor"
+                android:layout_width="126dp"
+                android:layout_height="150dp">
+                <ImageView
+                    android:id="@+id/imageone3"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:layout_gravity="center"
+
+
+                    />
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/middleLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="150dp"
+
+            >
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="126dp"
+                app:cardBackgroundColor="@color/boardColor"
+                android:layout_height="150dp"
+                app:cardCornerRadius="2dp"
+                >
+                <ImageView
+                    android:id="@+id/imagetwo1"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:layout_gravity="center"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                app:cardCornerRadius="2dp"
+                app:cardBackgroundColor="@color/boardColor"
+                android:layout_width="127dp"
+                android:layout_height="150dp">
+                <ImageView
+                    android:id="@+id/imagetwo2"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:layout_gravity="center"
+
+
+                    />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                app:cardCornerRadius="2dp"
+                app:cardBackgroundColor="@color/boardColor"
+                android:layout_width="126dp"
+                android:layout_height="150dp">
+                <ImageView
+                    android:id="@+id/imagetwo3"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:layout_gravity="center"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+
+            android:id="@+id/lowerLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="300dp"
+
+            >
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="126dp"
+                android:layout_height="150dp"
+                app:cardBackgroundColor="@color/boardColor"
+                app:cardCornerRadius="2dp"
+                >
+                <ImageView
+                    android:id="@+id/imagethree1"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:layout_gravity="center"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                app:cardCornerRadius="2dp"
+                app:cardBackgroundColor="@color/boardColor"
+                android:layout_width="127dp"
+                android:layout_height="150dp">
+                <ImageView
+                    android:id="@+id/imagethree2"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:layout_gravity="center"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                app:cardCornerRadius="2dp"
+                app:cardBackgroundColor="@color/boardColor"
+                android:layout_width="126dp"
+                android:layout_height="150dp">
+                <ImageView
+                    android:id="@+id/imagethree3"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:layout_gravity="center"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="120dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/new_game_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:text="@string/New_Game"
+            android:textColor="@color/greyFontColor"
+            android:textSize="17dp" />
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

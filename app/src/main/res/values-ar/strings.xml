@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="Choose_your_play_mode">اختر طريقة اللعب</string>
+    <string name="With_AI">مع الكمبيوتر</string>
+    <string name="With_a_friend">العب مع صديق</string>
+    <string name="Pick_your_side">اختر علامتك</string>
+    <string name="Continue">استمرار</string>
+    <string name="New_Game">ابدأ لعبة جديدة</string>
+    <string name="Congratulations">مبروك!</string>
+    <string name="Won">فزت</string>
+    <string name="SHARE">شارك</string>
+
+</resources>

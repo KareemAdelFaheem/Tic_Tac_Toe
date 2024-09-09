@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="Choose_your_play_mode">Choose your play mode</string>
+    <string name="With_AI">With AI </string>
+    <string name="With_a_friend">With a friend</string>
+    <string name="Pick_your_side">Pick your side</string>
+    <string name="Continue">Continue</string>
+    <string name="New_Game">New Game</string>
+    <string name="Congratulations">Congratulations</string>
+    <string name="Won">Won</string>
+    <string name="SHARE">SHARE</string>
+
+</resources>

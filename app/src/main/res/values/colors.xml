@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="greyFontColor">#7c848b</color>
+    <color name="blueButtonColor">#2e6cfb</color>
+    <color name="colorSelected">#2e6cfb</color>
+    <color name="colorUnselected">#7c848b</color>
+    <color name="orangeStroke">#f1d16b</color>
+    <color name="blueStroke">#6bc8d7</color>
+    <color name="boardColor">#fdfcfc</color>
+    <color name="backgroundColor">#f6f6f7</color>
+</resources>
